@@ -1,0 +1,24 @@
+[project]
+name = "tunisia-msa-parallel-corpus"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=4.0.0",
+    "huggingface-hub>=0.34.4",
+    "langid>=1.1.6",
+    "numpy>=2.3.2",
+    "presidio-analyzer>=2.2.359",
+    "pyarabic>=0.6.15",
+    "python-dotenv>=1.1.1",
+    "sentence-transformers>=5.1.0",
+    "tqdm>=4.67.1",
+    "transformers>=4.55.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ipykernel>=6.30.1",
+    "ipywidgets>=8.1.7",
+]
